@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <div class="bg-red-300">hello</div>
+  <div id="app">
+    <Navbar />
+    <Jumbotron />
+    <p>HALLOOO</p>
   </div>
 </template>
+
+<script>
+export default {}
+</script>
