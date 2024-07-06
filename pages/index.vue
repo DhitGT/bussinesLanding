@@ -2,7 +2,14 @@
   <div id="app">
     <Navbar />
     <Jumbotron />
-    <p>HALLOOO</p>
+    <feature />
+    <hero />
+    <cta />
+    <partner />
+    <testimonials />
+    <pricing />
+    <contact />
+    <footerz />
   </div>
 </template>
 

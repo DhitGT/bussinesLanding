@@ -1,10 +1,6 @@
 <template>
   <div class="jumbotron relative pt-28 h-screen">
     <div class="bg-image absolute top-0 left-0 w-full h-full">
-      <img
-        src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        alt="Background Image"
-      />
       <div
         class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50"
       ></div>
@@ -21,8 +17,10 @@
         ></path>
       </svg>
     </div>
-    <div class="container relative mx-auto py-16 px-4 sm:px-6 lg:px-8">
-      <div class="text-center w-[50vw] mx-auto">
+    <div
+      class="container relative flex flex-col items-center justify-center h-[70%] mx-auto px-4 sm:px-6 lg:px-8"
+    >
+      <div class="text-center w-[100] mx-auto">
         <h1
           class="text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl md:text-6xl"
         >
@@ -37,7 +35,7 @@
         <div class="mt-6">
           <button
             type="button"
-            class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-[#2091f9] hover:bg-[#1041f9]focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Try For Free
           </button>
@@ -50,12 +48,9 @@
 <style scoped>
 .jumbotron {
   height: 100vh;
-}
-``
-.bg-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  background-image: url('https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
