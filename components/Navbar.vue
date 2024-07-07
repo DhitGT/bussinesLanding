@@ -18,7 +18,6 @@
         <a href="/" class="text-xl font-bold text-gray-800">FIGMA LAND</a>
       </div>
       <div class="flex gap-4 justify-end md:hidden">
-        <!-- Mobile Menu Button -->
         <button
           @click="toggleMobileMenu"
           class="text-gray-500 hover:text-gray-700 focus:outline-none"
